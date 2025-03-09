@@ -1,0 +1,268 @@
+{
+  "__schemas__": {
+    "sessions": {
+      "module_path": "parlant.core.sessions",
+      "model_path": "_SessionDocument"
+    },
+    "events": {
+      "module_path": "parlant.core.sessions",
+      "model_path": "_EventDocument"
+    },
+    "inspections": {
+      "module_path": "parlant.core.sessions",
+      "model_path": "_InspectionDocument"
+    }
+  },
+  "sessions": [
+    {
+      "id": "CbfPfSxNAF",
+      "version": "0.1.0",
+      "creation_utc": "2025-03-09T13:36:06.621718+00:00",
+      "customer_id": "guest",
+      "agent_id": "1-WerHNani",
+      "mode": "auto",
+      "title": "New Conversation",
+      "consumption_offsets": {
+        "client": 0
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "hTdnlbg2Hp",
+      "version": "0.1.0",
+      "creation_utc": "2025-03-09T13:36:06.640145+00:00",
+      "session_id": "CbfPfSxNAF",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 0,
+      "correlation_id": "RID(2fSuEqmjnv)::LMb1AZWUOG",
+      "data": {
+        "acknowledged_offset": -1,
+        "status": "acknowledged",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "tqtepYj-FZ",
+      "version": "0.1.0",
+      "creation_utc": "2025-03-09T13:36:06.682579+00:00",
+      "session_id": "CbfPfSxNAF",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 1,
+      "correlation_id": "RID(2fSuEqmjnv)::LMb1AZWUOG",
+      "data": {
+        "acknowledged_offset": -1,
+        "status": "processing",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "JlPMfSbmEx",
+      "version": "0.1.0",
+      "creation_utc": "2025-03-09T13:36:06.719350+00:00",
+      "session_id": "CbfPfSxNAF",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 2,
+      "correlation_id": "RID(2fSuEqmjnv)::LMb1AZWUOG",
+      "data": {
+        "acknowledged_offset": -1,
+        "status": "ready",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "5-ripHhKFY",
+      "version": "0.1.0",
+      "creation_utc": "2025-03-09T13:36:07.659875+00:00",
+      "session_id": "CbfPfSxNAF",
+      "source": "customer",
+      "kind": "message",
+      "offset": 3,
+      "correlation_id": "RID(gMvwIVkce1)",
+      "data": {
+        "message": "hi",
+        "participant": {
+          "id": "guest",
+          "display_name": "<guest>"
+        },
+        "flagged": false,
+        "tags": []
+      },
+      "deleted": false
+    },
+    {
+      "id": "b82OVwlNgt",
+      "version": "0.1.0",
+      "creation_utc": "2025-03-09T13:36:07.668147+00:00",
+      "session_id": "CbfPfSxNAF",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 4,
+      "correlation_id": "RID(gMvwIVkce1)::6LfKSQaPVJ",
+      "data": {
+        "acknowledged_offset": 3,
+        "status": "acknowledged",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "Cy01zSKbBQ",
+      "version": "0.1.0",
+      "creation_utc": "2025-03-09T13:36:08.644137+00:00",
+      "session_id": "CbfPfSxNAF",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 5,
+      "correlation_id": "RID(gMvwIVkce1)::6LfKSQaPVJ",
+      "data": {
+        "acknowledged_offset": 3,
+        "status": "processing",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "mHnIAJY5hZ",
+      "version": "0.1.0",
+      "creation_utc": "2025-03-09T13:36:08.649569+00:00",
+      "session_id": "CbfPfSxNAF",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 6,
+      "correlation_id": "RID(gMvwIVkce1)::6LfKSQaPVJ",
+      "data": {
+        "acknowledged_offset": 3,
+        "status": "typing",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "XsO096skD7",
+      "version": "0.1.0",
+      "creation_utc": "2025-03-09T13:36:21.155567+00:00",
+      "session_id": "CbfPfSxNAF",
+      "source": "ai_agent",
+      "kind": "message",
+      "offset": 7,
+      "correlation_id": "RID(gMvwIVkce1)::6LfKSQaPVJ",
+      "data": {
+        "message": "Hello! How can I assist you today?",
+        "participant": {
+          "id": "1-WerHNani",
+          "display_name": "Default Agent"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "pTNsjToQfy",
+      "version": "0.1.0",
+      "creation_utc": "2025-03-09T13:36:21.162091+00:00",
+      "session_id": "CbfPfSxNAF",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 8,
+      "correlation_id": "RID(gMvwIVkce1)::6LfKSQaPVJ",
+      "data": {
+        "acknowledged_offset": 3,
+        "status": "ready",
+        "data": {}
+      },
+      "deleted": false
+    }
+  ],
+  "inspections": [
+    {
+      "id": "Y4dEMcF62a",
+      "version": "0.1.0",
+      "session_id": "sfsCz-Klv9",
+      "correlation_id": "RID(M87rx7mFJE)::PotZMEdUsO",
+      "message_generations": [],
+      "preparation_iterations": [
+        {
+          "guideline_propositions": [],
+          "tool_calls": [],
+          "terms": [],
+          "context_variables": [],
+          "generations": {
+            "guideline_proposition": {
+              "total_duration": 0.0,
+              "batches": []
+            },
+            "tool_calls": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "3DIbJ2bNUE",
+      "version": "0.1.0",
+      "session_id": "CbfPfSxNAF",
+      "correlation_id": "RID(2fSuEqmjnv)::LMb1AZWUOG",
+      "message_generations": [],
+      "preparation_iterations": [
+        {
+          "guideline_propositions": [],
+          "tool_calls": [],
+          "terms": [],
+          "context_variables": [],
+          "generations": {
+            "guideline_proposition": {
+              "total_duration": 0.0,
+              "batches": []
+            },
+            "tool_calls": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "SpnnmWaLkP",
+      "version": "0.1.0",
+      "session_id": "CbfPfSxNAF",
+      "correlation_id": "RID(gMvwIVkce1)::6LfKSQaPVJ",
+      "message_generations": [
+        {
+          "generation": {
+            "schema_name": "MessageEventSchema",
+            "model": "openai/gpt-4o-2024-08-06",
+            "duration": 12.499664306640625,
+            "usage": {
+              "input_tokens": 6915,
+              "output_tokens": 275,
+              "extra": {
+                "cached_input_tokens": 0
+              }
+            }
+          },
+          "messages": [
+            "Hello! How can I assist you today?"
+          ]
+        }
+      ],
+      "preparation_iterations": [
+        {
+          "guideline_propositions": [],
+          "tool_calls": [],
+          "terms": [],
+          "context_variables": [],
+          "generations": {
+            "guideline_proposition": {
+              "total_duration": 0.0,
+              "batches": []
+            },
+            "tool_calls": []
+          }
+        }
+      ]
+    }
+  ]
+}
