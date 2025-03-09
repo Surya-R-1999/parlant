@@ -1,4 +1,3 @@
-```md
 # Parlant Tutorial
 
 This project is a Python-based environment setup using **Poetry** for dependency management.  
