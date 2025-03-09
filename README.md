@@ -1,10 +1,5 @@
-Here’s a well-structured **`README.md`** for your **Parlant Tutorial** project:  
-
----
-
-### **`README.md`**
 ```md
-# Parlant Tutorial
+# Poetry Tutorial
 
 This project is a Python-based environment setup using **Poetry** for dependency management.  
 It includes a structured **package setup** inside a `base/` directory.
