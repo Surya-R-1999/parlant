@@ -3,7 +3,9 @@
 
 # Ignore Poetry lock file (optional)
 poetry.lock
-
+pyproject.toml
+.env
+parlant.log
 # Ignore system files
 __pycache__/
 *.pyc

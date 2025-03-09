@@ -1,0 +1,9 @@
+{
+  "__schemas__": {
+    "evaluations": {
+      "module_path": "parlant.core.evaluations",
+      "model_path": "_EvaluationDocument"
+    }
+  },
+  "evaluations": []
+}

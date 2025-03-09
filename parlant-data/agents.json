@@ -1,0 +1,18 @@
+{
+  "__schemas__": {
+    "agents": {
+      "module_path": "parlant.core.agents",
+      "model_path": "_AgentDocument"
+    }
+  },
+  "agents": [
+    {
+      "id": "1-WerHNani",
+      "version": "0.1.0",
+      "creation_utc": "2025-03-09T13:33:59.061210+00:00",
+      "name": "Default Agent",
+      "description": null,
+      "max_engine_iterations": 3
+    }
+  ]
+}
