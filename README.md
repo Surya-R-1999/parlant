@@ -1,5 +1,5 @@
 ```md
-# Poetry Tutorial
+# Parlant Tutorial
 
 This project is a Python-based environment setup using **Poetry** for dependency management.  
 It includes a structured **package setup** inside a `base/` directory.
